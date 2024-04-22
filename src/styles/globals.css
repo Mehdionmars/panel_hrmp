@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-white: #ffffff;
+  --color-gold: #d4af37;
+  --color-navy-blue: #000080;
+  --color-silver: #c0c0c0;
+  --color-onyx: #3c4142;
+  --color-teal: #008080;
+  --color-silver-light: #cccccc;
+  --color-bittersweet: #ff6f61;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-onyx);
+  color: var(--color-white);
+}
